@@ -1,0 +1,1025 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>DevSparx</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- SEO-Optimization -->
+    <meta name="description" content="DevSparx offers web development internships, React.js training, and coding competitions in Pakistan. Gain real-world experience and launch your tech career.">
+    <meta name="keywords" content="web development internship, React.js training, coding competition Pakistan, tech internships, programming courses Pakistan">
+    <meta name="author" content="DevSparx">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="DevSparx - Internships & Coding Competitions in Pakistan">
+    <meta property="og:description" content="Gain real-world experience through our internships and coding competitions. Launch your tech career with DevSparx.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devsparx.com">
+    <meta property="og:image" content="https://devsparx.com/assests/logo.png">
+    
+      <!-- Twitter Card Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="DevSparx | Web Development Internships in Pakistan">
+      <meta name="twitter:description" content="Hands-on tech internships and coding competitions for students in Pakistan.">
+      <meta name="twitter:image" content="https://www.devsparx.com/assests/logo.png">
+             
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://devsparx.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assests/logo dark.png" type="image/png">
+    
+    <!-- Bootstrap CSS -->
+     <link rel="icon" href="assests/single logo.png">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4aed11ef63.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "Af_Bz7NpYBzkIJMMk",
+            });
+        })();
+        </script>
+        <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "DevSparx",
+          "description": "Providing web development internships and coding competitions for students in Pakistan",
+          "url": "https://www.devsparx.com",
+          "logo": "https://www.devsparx.com/assests/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Pakistan"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Internship Programs",
+            "itemListElement": [
+              {
+                "@type": "OfferCatalog",
+                "name": "Web Development Internship",
+                "itemListElement": {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Course",
+                    "name": "Web Development Intensive Internship",
+                    "description": "Hands-on training in front-end and back-end web development technologies"
+                  }
+                }
+              },
+              {
+                "@type": "OfferCatalog",
+                "name": "React Developer Internship",
+                "itemListElement": {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Course",
+                    "name": "React.js Developer Program",
+                    "description": "Master React.js, Redux, and Next.js through real project experience"
+                  }
+                }
+              }
+            ]
+          }
+        }
+        </script>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            scroll-behavior: smooth;
+        }
+        ::selection{
+            background-color: #00afac44;
+        }
+      body {
+            font-family: "Poppins";
+            font-weight: 600;
+            background-color: #f9f6ff;
+        }
+
+        hr {
+            border-radius: 45px;
+            width: 5vw;
+            height: 0.8vh;
+            background-color: #fb555c;
+        }
+
+        .btn-success {
+            background-color: #00afab;
+        }
+
+        .btn-success:hover {
+            background-color: #fb555c;
+            border: 1px solid #fb555c;
+        }
+
+        .lead {
+            font-size: 1rem;
+        }
+
+        .card-flat,
+        .card-flat-body,
+        .card-flat-title,
+        .card-flat-title {
+            background-color: #fff;
+        }
+
+        .card-flat {
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+            box-shadow: 0px 0px 12px #d8d8d8d6;
+        }
+        .card-flat:hover{
+            box-shadow: 0px 0px 12px #cfcece;
+            transform: scale(1.1);
+        }
+
+        .btn-light {
+            background-color: #f9f6ff;
+        }
+        .form-rig{
+            background-color: #f6f4ff;
+            border-radius: 25px;
+        }
+        .select{
+            height: 7.5vh;
+            border: solid 1.5px #9e9e9e;
+            border-radius: 1rem;
+            background-color: inherit;
+            }
+           .btn-light:hover, .active{
+            border-radius: 15px;
+            background-color: #99f7f56e;
+            /* background-color: rgba(173, 169, 244, 0.69); */
+           }
+                .navbar {
+                transition: all 0.3s ease;
+                padding: 15px 0; 
+            }
+            
+            .navbar.scrolled {
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                border-bottom: 1px solid #ddd; 
+                padding: 10px 0; 
+                background-color: #f6f4ff !important;
+            }
+    </style>
+    <div class="container-fluid p-0" id="top-start">
+        <a href="#top-start"><button class="button-top">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+              <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+            </svg>
+          </button></a>
+        <nav class="navbar navbar-expand-lg position-fixed w-100" id="home-top" style="background-color: #f6f4ff;z-index: 99;top: 0;">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: #000;"><img src="assests/nonbg-logo.png" width="180" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top">
+                    <img src="assests/menu.png" width="30" alt="">
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="top">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item"><a href="#" class="px-2 btn-light nav-link text-dark text-uppercase ">Home</a></li>
+                        <li class="nav-item"><a href="#footer" class="px-2 btn-light nav-link text-dark text-uppercase ">About Us</a></li>
+                        <li class="nav-item"><a href="#internship-card" class="px-2 btn-light nav-link text-dark text-uppercase ">Services</a></li>
+                        <li class="nav-item"><a href="#form" class="px-2 btn-light nav-link text-dark text-uppercase ">Internships</a></li>
+                        <li class="nav-item"><a href="#footer" class="px-2 btn-light nav-link text-dark text-uppercase ">Contact Us</a></li>
+                    </ul>
+                    <a href="https://forms.gle/hv4itgCQ1HTJnANPA"><button class="login-button"> <span>Enroll</span></button></a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="container p-0">
+                <div class="row mt-5 pt-4 pt-md-0">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="main-top col-12 col-md-6 d-flex flex-column align-items-center  justify-content-center" >
+                        <div class="d-flex flex-column p-3 content">
+                            <h5 style="color: #04908d;">Creativity and Collaboration</h5>
+                            <h1 class="font-weight-bold">The only platform that <span style="color: #04908d;">guarantees</span> real-world work experience across the
+                                Pakistan</h1>
+                            <p class="text-muted font-weight-light">Shaping tomorrow's workforce: one internship at a
+                                time.</p>
+                        </div>
+                        <div class="d-flex w-100 content-btn mt-3">
+                            <a href="#form"><button class="btn mr-md-4 mr-2 ml-1"><i class="animation"></i>Internship: Apply<i class="animation"></i></button></a>
+                            <a href="#work"><button class="btn-2">Traning Program</button></a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2000" class="col-12 col-md-6 banner mt-4"
+                        style="background-image: url(assests/main\ banner.png); background-position: contain;background-size: contain; background-repeat: no-repeat;height: 65vh;">
+                    </div>
+                </div>
+                <div class="row my-5 d-none d-lg-flex ">
+                    <div class="col-2" data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" style="background-image: url(assests/ass-1.png);background-position: center;background-size: cover;background-repeat: no-repeat;height: 8vh;">
+                    </div>
+                    <div class="col-2" data-aos-delay="200" data-aos="fade-down" data-aos-duration="1200" style="background-image: url(assests/ass-2.png);background-position: center;background-size: cover;background-repeat: no-repeat;height: 8vh;">
+                    </div>
+                    <div class="col-2" data-aos-delay="300" data-aos="fade-down" data-aos-duration="1400" style="background-image: url(assests/asss-5.png);background-position: center;background-size: cover;background-repeat: no-repeat;height: 8vh;">
+                    </div>
+                    <div class="col-2" data-aos-delay="400" data-aos="fade-down" data-aos-duration="1600" style="background-image: url(assests/ass-3.png);background-position: center;background-size: cover;background-repeat: no-repeat;height: 8vh;">
+                    </div>
+                    <div class="col-2" data-aos-delay="500" data-aos="fade-down" data-aos-duration="1800" style="background-image: url(assests/ass-4.png);background-position: center;background-size: cover;background-repeat: no-repeat;height: 8vh;">
+                    </div>
+                    <div class="col-2" data-aos-delay="600" data-aos="fade-down" data-aos-duration="2000" style="background-image: url(assests/asss-5.png);background-position: center;background-size: cover;background-repeat: no-repeat;height: 8vh;">
+                    </div>
+                </div>
+                <hr>
+                <div class="row my-5" id="internship-card">
+                    <div class="col-12 text-center">
+                        <p class="m-auto p-2 title">Internship</p>
+                        <h3 class="mt-3">Internship for Students</h3>
+                        <p class="text-muted lead">DevSparx is a leading platform dedicated to nurturing the next
+                            generation of web developers.</p>
+                    </div>
+                    <div class="col-12 my-5" >
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <div class="card m-auto" data-aos="fade-right" data-aos-duration="1000">
+                                    <div class="card__wrapper">
+                                        <div class="card___wrapper-acounts">
+                                            <div class="card__score">+3</div>
+                                            <div class="card__acounts"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 128 128">
+                                                    <circle r="60" fill="#ffd8c9" cy="64" cx="64"></circle>
+                                                    <circle r="48" opacity=".3" fill="#fff" cy="64" cx="64"></circle>
+                                                    <path fill="#393c54"
+                                                        d="m64 14a31 31 0 0 1 31 31v41.07a9.93 9.93 0 0 1 -9.93 9.93h-42.14a9.93 9.93 0 0 1 -9.93-9.93v-41.07a31 31 0 0 1 31-31z">
+                                                    </path>
+                                                    <circle r="7" fill="#fbc0aa" cy="60" cx="89"></circle>
+                                                    <path fill="#00adfe"
+                                                        d="m64 124a59.7 59.7 0 0 0 34.7-11.07l-3.33-10.29a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.33 10.29a59.7 59.7 0 0 0 34.7 11.07z">
+                                                    </path>
+                                                    <path fill="#ff8475"
+                                                        d="m46.54 121.45a59.93 59.93 0 0 0 34.92 0l-2.46-25.45h-30z">
+                                                    </path>
+                                                    <path fill="#f85565" d="m48.13 105h31.74l-.39-4h-30.96z"></path>
+                                                    <path fill="#ffd8c9" d="m76 96a12 12 0 0 1 -24 0z"></path>
+                                                    <path stroke-width="14" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 83v12"></path>
+                                                    <circle r="7" fill="#fbc0aa" cy="60" cx="39"></circle>
+                                                    <path fill="#ffd8c9"
+                                                        d="m64 90a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z">
+                                                    </path>
+                                                    <path stroke-width="5" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 64.75v6.5"></path>
+                                                    <path fill="#515570"
+                                                        d="m64.83 18.35a27.51 27.51 0 0 0 -28.32 27.47v4.76a2 2 0 0 0 2 2h.58a1 1 0 0 0 .86-.49l4.05-7.09 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.47 4.13a1 1 0 0 0 1.72 0l2.47-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.47 4.13a1 1 0 0 0 1.72 0l2.47-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 4 7.09a1 1 0 0 0 .86.49h.58a2 2 0 0 0 2-2v-4.18c.05-14.95-11.66-27.61-26.61-28.05z">
+                                                    </path>
+                                                    <path fill="#f85565" d="m47.35 113h33.29l-.38-4h-32.52z"></path>
+                                                    <path fill="#f85565" d="m46.58 121h34.84l-.39-4h-34.06z"></path>
+                                                    <path opacity=".7" fill="#ff8475"
+                                                        d="m58.52 79.39c0-.84 11-.84 11 0 0 1.79-2.45 3.25-5.48 3.25s-5.52-1.46-5.52-3.25z">
+                                                    </path>
+                                                    <path opacity=".7" fill="#f85565"
+                                                        d="m69.48 79.29c0 .78-11 .78-11 0 .04-1.79 2.52-3.29 5.52-3.29s5.48 1.5 5.48 3.29z">
+                                                    </path>
+                                                    <circle r="3" fill="#515570" cy="58.75" cx="76.25"></circle>
+                                                    <path stroke-linejoin="round" stroke-linecap="round"
+                                                        stroke="#515570" fill="none"
+                                                        d="m70.75 59.84a6.61 6.61 0 0 1 11.5-1.31"></path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#515570;stroke-width:2;opacity:.2"
+                                                        d="m72.11 51.46 5.68-.4a4.62 4.62 0 0 1 4.21 2.1l.77 1.21">
+                                                    </path>
+                                                    <circle r="3" fill="#515570" cy="58.75" cx="51.75"></circle>
+                                                    <g stroke-linecap="round" fill="none">
+                                                        <path stroke-linejoin="round" stroke="#515570"
+                                                            d="m57.25 59.84a6.61 6.61 0 0 0 -11.5-1.31"></path>
+                                                        <path stroke-width="2" stroke-linejoin="round" stroke="#515570"
+                                                            opacity=".2"
+                                                            d="m55.89 51.45-5.68-.39a4.59 4.59 0 0 0 -4.21 2.11l-.77 1.21">
+                                                        </path>
+                                                        <path stroke-miterlimit="10" stroke="#f85565"
+                                                            d="m57.25 78.76a17.4 17.4 0 0 0 6.75 1.12 17.4 17.4 0 0 0 6.75-1.12">
+                                                        </path>
+                                                    </g>
+                                                </svg></div>
+                                            <div class="card__acounts"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 128 128">
+                                                    <circle r="60" fill="#ff8475" cy="64" cx="64"></circle>
+                                                    <circle r="48" opacity=".4" fill="#f85565" cy="64" cx="64"></circle>
+                                                    <path fill="#7f3838"
+                                                        d="m64 14a32 32 0 0 1 32 32v41a6 6 0 0 1 -6 6h-52a6 6 0 0 1 -6-6v-41a32 32 0 0 1 32-32z">
+                                                    </path>
+                                                    <path opacity=".4" fill="#393c54"
+                                                        d="m62.73 22h2.54a23.73 23.73 0 0 1 23.73 23.73v42.82a4.45 4.45 0 0 1 -4.45 4.45h-41.1a4.45 4.45 0 0 1 -4.45-4.45v-42.82a23.73 23.73 0 0 1 23.73-23.73z">
+                                                    </path>
+                                                    <circle r="7" fill="#fbc0aa" cy="65" cx="89"></circle>
+                                                    <path fill="#4bc190"
+                                                        d="m64 124a59.67 59.67 0 0 0 34.69-11.06l-3.32-9.3a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.32 9.3a59.67 59.67 0 0 0 34.69 11.06z">
+                                                    </path>
+                                                    <path opacity=".3" fill="#356cb6"
+                                                        d="m45 110 5.55 2.92-2.55 8.92a60.14 60.14 0 0 0 9 1.74v-27.08l-12.38 10.25a2 2 0 0 0 .38 3.25z">
+                                                    </path>
+                                                    <path opacity=".3" fill="#356cb6"
+                                                        d="m71 96.5v27.09a60.14 60.14 0 0 0 9-1.74l-2.54-8.93 5.54-2.92a2 2 0 0 0 .41-3.25z">
+                                                    </path>
+                                                    <path fill="#fff" d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z">
+                                                    </path>
+                                                    <path stroke-width="14" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 88.75v9.75"></path>
+                                                    <circle r="7" fill="#fbc0aa" cy="65" cx="39"></circle>
+                                                    <path fill="#ffd8c9"
+                                                        d="m64 91a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z">
+                                                    </path>
+                                                    <path fill="#bc5b57"
+                                                        d="m91.49 51.12v-4.72c0-14.95-11.71-27.61-26.66-28a27.51 27.51 0 0 0 -28.32 27.42v5.33a2 2 0 0 0 2 2h6.81a8 8 0 0 0 6.5-3.33l4.94-6.88a18.45 18.45 0 0 1 1.37 1.63 22.84 22.84 0 0 0 17.87 8.58h13.45a2 2 0 0 0 2.04-2.03z">
+                                                    </path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1"
+                                                        d="m62.76 36.94c4.24 8.74 10.71 10.21 16.09 10.21h5"></path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1"
+                                                        d="m71 35c2.52 5.22 6.39 6.09 9.6 6.09h3"></path>
+                                                    <circle r="3" fill="#515570" cy="62.28" cx="76"></circle>
+                                                    <circle r="3" fill="#515570" cy="62.28" cx="52"></circle>
+                                                    <ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67"
+                                                        cx="50.42"></ellipse>
+                                                    <ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67"
+                                                        cx="77.58"></ellipse>
+                                                    <g stroke-linejoin="round" stroke-linecap="round" fill="none">
+                                                        <path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path>
+                                                        <path stroke-width="2" stroke="#515570" opacity=".2"
+                                                            d="m55 56h-9.25"></path>
+                                                        <path stroke-width="2" stroke="#515570" opacity=".2"
+                                                            d="m82 56h-9.25"></path>
+                                                    </g>
+                                                    <path opacity=".4" fill="#f85565"
+                                                        d="m64 84c5 0 7-3 7-3h-14s2 3 7 3z"></path>
+                                                    <path fill="#f85565"
+                                                        d="m65.07 78.93-.55.55a.73.73 0 0 1 -1 0l-.55-.55c-1.14-1.14-2.93-.93-4.27.47l-1.7 1.6h14l-1.66-1.6c-1.34-1.4-3.13-1.61-4.27-.47z">
+                                                    </path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                    <div class="card__title">Web Development Intenship</div>
+                                    <div class="card__subtitle">DevSparx is a leading platform dedicated to nurturing
+                                        the next generation of web developers. We offer professional internships
+                                        designed for students eager to gain hands-on experience in real-world projects.
+                                    </div>
+                                    <div class="card__indicator"><span class="card__indicator-amount">135</span> Works /
+                                        <span class="card__indicator-percentage">45%</span></div>
+                                    <div class="card__progress"><progress max="100" value="40"></progress></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12 my-4 my-md-0">
+                                <div class="card m-auto" data-aos="zoom-in" data-aos-duration="1000">
+                                    <div class="card__wrapper">
+                                        <div class="card___wrapper-acounts">
+                                            <div class="card__score">+5</div>
+                                            <div class="card__acounts"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 128 128">
+                                                    <circle r="60" fill="#ffd8c9" cy="64" cx="64"></circle>
+                                                    <circle r="48" opacity=".3" fill="#fff" cy="64" cx="64"></circle>
+                                                    <path fill="#393c54"
+                                                        d="m64 14a31 31 0 0 1 31 31v41.07a9.93 9.93 0 0 1 -9.93 9.93h-42.14a9.93 9.93 0 0 1 -9.93-9.93v-41.07a31 31 0 0 1 31-31z">
+                                                    </path>
+                                                    <circle r="7" fill="#fbc0aa" cy="60" cx="89"></circle>
+                                                    <path fill="#00adfe"
+                                                        d="m64 124a59.7 59.7 0 0 0 34.7-11.07l-3.33-10.29a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.33 10.29a59.7 59.7 0 0 0 34.7 11.07z">
+                                                    </path>
+                                                    <path fill="#ff8475"
+                                                        d="m46.54 121.45a59.93 59.93 0 0 0 34.92 0l-2.46-25.45h-30z">
+                                                    </path>
+                                                    <path fill="#f85565" d="m48.13 105h31.74l-.39-4h-30.96z"></path>
+                                                    <path fill="#ffd8c9" d="m76 96a12 12 0 0 1 -24 0z"></path>
+                                                    <path stroke-width="14" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 83v12"></path>
+                                                    <circle r="7" fill="#fbc0aa" cy="60" cx="39"></circle>
+                                                    <path fill="#ffd8c9"
+                                                        d="m64 90a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z">
+                                                    </path>
+                                                    <path stroke-width="5" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 64.75v6.5"></path>
+                                                    <path fill="#515570"
+                                                        d="m64.83 18.35a27.51 27.51 0 0 0 -28.32 27.47v4.76a2 2 0 0 0 2 2h.58a1 1 0 0 0 .86-.49l4.05-7.09 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.47 4.13a1 1 0 0 0 1.72 0l2.47-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.47 4.13a1 1 0 0 0 1.72 0l2.47-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 4 7.09a1 1 0 0 0 .86.49h.58a2 2 0 0 0 2-2v-4.18c.05-14.95-11.66-27.61-26.61-28.05z">
+                                                    </path>
+                                                    <path fill="#f85565" d="m47.35 113h33.29l-.38-4h-32.52z"></path>
+                                                    <path fill="#f85565" d="m46.58 121h34.84l-.39-4h-34.06z"></path>
+                                                    <path opacity=".7" fill="#ff8475"
+                                                        d="m58.52 79.39c0-.84 11-.84 11 0 0 1.79-2.45 3.25-5.48 3.25s-5.52-1.46-5.52-3.25z">
+                                                    </path>
+                                                    <path opacity=".7" fill="#f85565"
+                                                        d="m69.48 79.29c0 .78-11 .78-11 0 .04-1.79 2.52-3.29 5.52-3.29s5.48 1.5 5.48 3.29z">
+                                                    </path>
+                                                    <circle r="3" fill="#515570" cy="58.75" cx="76.25"></circle>
+                                                    <path stroke-linejoin="round" stroke-linecap="round"
+                                                        stroke="#515570" fill="none"
+                                                        d="m70.75 59.84a6.61 6.61 0 0 1 11.5-1.31"></path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#515570;stroke-width:2;opacity:.2"
+                                                        d="m72.11 51.46 5.68-.4a4.62 4.62 0 0 1 4.21 2.1l.77 1.21">
+                                                    </path>
+                                                    <circle r="3" fill="#515570" cy="58.75" cx="51.75"></circle>
+                                                    <g stroke-linecap="round" fill="none">
+                                                        <path stroke-linejoin="round" stroke="#515570"
+                                                            d="m57.25 59.84a6.61 6.61 0 0 0 -11.5-1.31"></path>
+                                                        <path stroke-width="2" stroke-linejoin="round" stroke="#515570"
+                                                            opacity=".2"
+                                                            d="m55.89 51.45-5.68-.39a4.59 4.59 0 0 0 -4.21 2.11l-.77 1.21">
+                                                        </path>
+                                                        <path stroke-miterlimit="10" stroke="#f85565"
+                                                            d="m57.25 78.76a17.4 17.4 0 0 0 6.75 1.12 17.4 17.4 0 0 0 6.75-1.12">
+                                                        </path>
+                                                    </g>
+                                                </svg></div>
+                                            <div class="card__acounts"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 128 128">
+                                                    <circle r="60" fill="#ff8475" cy="64" cx="64"></circle>
+                                                    <circle r="48" opacity=".4" fill="#f85565" cy="64" cx="64"></circle>
+                                                    <path fill="#7f3838"
+                                                        d="m64 14a32 32 0 0 1 32 32v41a6 6 0 0 1 -6 6h-52a6 6 0 0 1 -6-6v-41a32 32 0 0 1 32-32z">
+                                                    </path>
+                                                    <path opacity=".4" fill="#393c54"
+                                                        d="m62.73 22h2.54a23.73 23.73 0 0 1 23.73 23.73v42.82a4.45 4.45 0 0 1 -4.45 4.45h-41.1a4.45 4.45 0 0 1 -4.45-4.45v-42.82a23.73 23.73 0 0 1 23.73-23.73z">
+                                                    </path>
+                                                    <circle r="7" fill="#fbc0aa" cy="65" cx="89"></circle>
+                                                    <path fill="#4bc190"
+                                                        d="m64 124a59.67 59.67 0 0 0 34.69-11.06l-3.32-9.3a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.32 9.3a59.67 59.67 0 0 0 34.69 11.06z">
+                                                    </path>
+                                                    <path opacity=".3" fill="#356cb6"
+                                                        d="m45 110 5.55 2.92-2.55 8.92a60.14 60.14 0 0 0 9 1.74v-27.08l-12.38 10.25a2 2 0 0 0 .38 3.25z">
+                                                    </path>
+                                                    <path opacity=".3" fill="#356cb6"
+                                                        d="m71 96.5v27.09a60.14 60.14 0 0 0 9-1.74l-2.54-8.93 5.54-2.92a2 2 0 0 0 .41-3.25z">
+                                                    </path>
+                                                    <path fill="#fff" d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z">
+                                                    </path>
+                                                    <path stroke-width="14" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 88.75v9.75"></path>
+                                                    <circle r="7" fill="#fbc0aa" cy="65" cx="39"></circle>
+                                                    <path fill="#ffd8c9"
+                                                        d="m64 91a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z">
+                                                    </path>
+                                                    <path fill="#bc5b57"
+                                                        d="m91.49 51.12v-4.72c0-14.95-11.71-27.61-26.66-28a27.51 27.51 0 0 0 -28.32 27.42v5.33a2 2 0 0 0 2 2h6.81a8 8 0 0 0 6.5-3.33l4.94-6.88a18.45 18.45 0 0 1 1.37 1.63 22.84 22.84 0 0 0 17.87 8.58h13.45a2 2 0 0 0 2.04-2.03z">
+                                                    </path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1"
+                                                        d="m62.76 36.94c4.24 8.74 10.71 10.21 16.09 10.21h5"></path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1"
+                                                        d="m71 35c2.52 5.22 6.39 6.09 9.6 6.09h3"></path>
+                                                    <circle r="3" fill="#515570" cy="62.28" cx="76"></circle>
+                                                    <circle r="3" fill="#515570" cy="62.28" cx="52"></circle>
+                                                    <ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67"
+                                                        cx="50.42"></ellipse>
+                                                    <ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67"
+                                                        cx="77.58"></ellipse>
+                                                    <g stroke-linejoin="round" stroke-linecap="round" fill="none">
+                                                        <path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path>
+                                                        <path stroke-width="2" stroke="#515570" opacity=".2"
+                                                            d="m55 56h-9.25"></path>
+                                                        <path stroke-width="2" stroke="#515570" opacity=".2"
+                                                            d="m82 56h-9.25"></path>
+                                                    </g>
+                                                    <path opacity=".4" fill="#f85565"
+                                                        d="m64 84c5 0 7-3 7-3h-14s2 3 7 3z"></path>
+                                                    <path fill="#f85565"
+                                                        d="m65.07 78.93-.55.55a.73.73 0 0 1 -1 0l-.55-.55c-1.14-1.14-2.93-.93-4.27.47l-1.7 1.6h14l-1.66-1.6c-1.34-1.4-3.13-1.61-4.27-.47z">
+                                                    </path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                    <div class="card__title">React Developer Internship</div>
+                                    <div class="card__subtitle">DevSparx in this program provides hands-on experience in
+                                        building dynamic, high-performance web applications using React.js, Redux,
+                                        Next.js, and other cutting-edge technologies..</div>
+                                    <div class="card__indicator"><span class="card__indicator-amount">165</span> Works /
+                                        <span class="card__indicator-percentage">65%</span></div>
+                                    <div class="card__progress"><progress max="100" value="65"></progress></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card m-auto" data-aos="fade-left" data-aos-duration="1000">
+                                    <div class="card__wrapper">
+                                        <div class="card___wrapper-acounts">
+                                            <div class="card__score">+7</div>
+                                            <div class="card__acounts"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 128 128">
+                                                    <circle r="60" fill="#ffd8c9" cy="64" cx="64"></circle>
+                                                    <circle r="48" opacity=".3" fill="#fff" cy="64" cx="64"></circle>
+                                                    <path fill="#393c54"
+                                                        d="m64 14a31 31 0 0 1 31 31v41.07a9.93 9.93 0 0 1 -9.93 9.93h-42.14a9.93 9.93 0 0 1 -9.93-9.93v-41.07a31 31 0 0 1 31-31z">
+                                                    </path>
+                                                    <circle r="7" fill="#fbc0aa" cy="60" cx="89"></circle>
+                                                    <path fill="#00adfe"
+                                                        d="m64 124a59.7 59.7 0 0 0 34.7-11.07l-3.33-10.29a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.33 10.29a59.7 59.7 0 0 0 34.7 11.07z">
+                                                    </path>
+                                                    <path fill="#ff8475"
+                                                        d="m46.54 121.45a59.93 59.93 0 0 0 34.92 0l-2.46-25.45h-30z">
+                                                    </path>
+                                                    <path fill="#f85565" d="m48.13 105h31.74l-.39-4h-30.96z"></path>
+                                                    <path fill="#ffd8c9" d="m76 96a12 12 0 0 1 -24 0z"></path>
+                                                    <path stroke-width="14" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 83v12"></path>
+                                                    <circle r="7" fill="#fbc0aa" cy="60" cx="39"></circle>
+                                                    <path fill="#ffd8c9"
+                                                        d="m64 90a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z">
+                                                    </path>
+                                                    <path stroke-width="5" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 64.75v6.5"></path>
+                                                    <path fill="#515570"
+                                                        d="m64.83 18.35a27.51 27.51 0 0 0 -28.32 27.47v4.76a2 2 0 0 0 2 2h.58a1 1 0 0 0 .86-.49l4.05-7.09 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.47 4.13a1 1 0 0 0 1.72 0l2.47-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 2.47 4.13a1 1 0 0 0 1.72 0l2.47-4.13 2.48 4.13a1 1 0 0 0 1.71 0l2.48-4.13 4 7.09a1 1 0 0 0 .86.49h.58a2 2 0 0 0 2-2v-4.18c.05-14.95-11.66-27.61-26.61-28.05z">
+                                                    </path>
+                                                    <path fill="#f85565" d="m47.35 113h33.29l-.38-4h-32.52z"></path>
+                                                    <path fill="#f85565" d="m46.58 121h34.84l-.39-4h-34.06z"></path>
+                                                    <path opacity=".7" fill="#ff8475"
+                                                        d="m58.52 79.39c0-.84 11-.84 11 0 0 1.79-2.45 3.25-5.48 3.25s-5.52-1.46-5.52-3.25z">
+                                                    </path>
+                                                    <path opacity=".7" fill="#f85565"
+                                                        d="m69.48 79.29c0 .78-11 .78-11 0 .04-1.79 2.52-3.29 5.52-3.29s5.48 1.5 5.48 3.29z">
+                                                    </path>
+                                                    <circle r="3" fill="#515570" cy="58.75" cx="76.25"></circle>
+                                                    <path stroke-linejoin="round" stroke-linecap="round"
+                                                        stroke="#515570" fill="none"
+                                                        d="m70.75 59.84a6.61 6.61 0 0 1 11.5-1.31"></path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#515570;stroke-width:2;opacity:.2"
+                                                        d="m72.11 51.46 5.68-.4a4.62 4.62 0 0 1 4.21 2.1l.77 1.21">
+                                                    </path>
+                                                    <circle r="3" fill="#515570" cy="58.75" cx="51.75"></circle>
+                                                    <g stroke-linecap="round" fill="none">
+                                                        <path stroke-linejoin="round" stroke="#515570"
+                                                            d="m57.25 59.84a6.61 6.61 0 0 0 -11.5-1.31"></path>
+                                                        <path stroke-width="2" stroke-linejoin="round" stroke="#515570"
+                                                            opacity=".2"
+                                                            d="m55.89 51.45-5.68-.39a4.59 4.59 0 0 0 -4.21 2.11l-.77 1.21">
+                                                        </path>
+                                                        <path stroke-miterlimit="10" stroke="#f85565"
+                                                            d="m57.25 78.76a17.4 17.4 0 0 0 6.75 1.12 17.4 17.4 0 0 0 6.75-1.12">
+                                                        </path>
+                                                    </g>
+                                                </svg></div>
+                                            <div class="card__acounts"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 128 128">
+                                                    <circle r="60" fill="#ff8475" cy="64" cx="64"></circle>
+                                                    <circle r="48" opacity=".4" fill="#f85565" cy="64" cx="64"></circle>
+                                                    <path fill="#7f3838"
+                                                        d="m64 14a32 32 0 0 1 32 32v41a6 6 0 0 1 -6 6h-52a6 6 0 0 1 -6-6v-41a32 32 0 0 1 32-32z">
+                                                    </path>
+                                                    <path opacity=".4" fill="#393c54"
+                                                        d="m62.73 22h2.54a23.73 23.73 0 0 1 23.73 23.73v42.82a4.45 4.45 0 0 1 -4.45 4.45h-41.1a4.45 4.45 0 0 1 -4.45-4.45v-42.82a23.73 23.73 0 0 1 23.73-23.73z">
+                                                    </path>
+                                                    <circle r="7" fill="#fbc0aa" cy="65" cx="89"></circle>
+                                                    <path fill="#4bc190"
+                                                        d="m64 124a59.67 59.67 0 0 0 34.69-11.06l-3.32-9.3a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.32 9.3a59.67 59.67 0 0 0 34.69 11.06z">
+                                                    </path>
+                                                    <path opacity=".3" fill="#356cb6"
+                                                        d="m45 110 5.55 2.92-2.55 8.92a60.14 60.14 0 0 0 9 1.74v-27.08l-12.38 10.25a2 2 0 0 0 .38 3.25z">
+                                                    </path>
+                                                    <path opacity=".3" fill="#356cb6"
+                                                        d="m71 96.5v27.09a60.14 60.14 0 0 0 9-1.74l-2.54-8.93 5.54-2.92a2 2 0 0 0 .41-3.25z">
+                                                    </path>
+                                                    <path fill="#fff" d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z">
+                                                    </path>
+                                                    <path stroke-width="14" stroke-linejoin="round"
+                                                        stroke-linecap="round" stroke="#fbc0aa" fill="none"
+                                                        d="m64 88.75v9.75"></path>
+                                                    <circle r="7" fill="#fbc0aa" cy="65" cx="39"></circle>
+                                                    <path fill="#ffd8c9"
+                                                        d="m64 91a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z">
+                                                    </path>
+                                                    <path fill="#bc5b57"
+                                                        d="m91.49 51.12v-4.72c0-14.95-11.71-27.61-26.66-28a27.51 27.51 0 0 0 -28.32 27.42v5.33a2 2 0 0 0 2 2h6.81a8 8 0 0 0 6.5-3.33l4.94-6.88a18.45 18.45 0 0 1 1.37 1.63 22.84 22.84 0 0 0 17.87 8.58h13.45a2 2 0 0 0 2.04-2.03z">
+                                                    </path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1"
+                                                        d="m62.76 36.94c4.24 8.74 10.71 10.21 16.09 10.21h5"></path>
+                                                    <path
+                                                        style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1"
+                                                        d="m71 35c2.52 5.22 6.39 6.09 9.6 6.09h3"></path>
+                                                    <circle r="3" fill="#515570" cy="62.28" cx="76"></circle>
+                                                    <circle r="3" fill="#515570" cy="62.28" cx="52"></circle>
+                                                    <ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67"
+                                                        cx="50.42"></ellipse>
+                                                    <ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67"
+                                                        cx="77.58"></ellipse>
+                                                    <g stroke-linejoin="round" stroke-linecap="round" fill="none">
+                                                        <path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path>
+                                                        <path stroke-width="2" stroke="#515570" opacity=".2"
+                                                            d="m55 56h-9.25"></path>
+                                                        <path stroke-width="2" stroke="#515570" opacity=".2"
+                                                            d="m82 56h-9.25"></path>
+                                                    </g>
+                                                    <path opacity=".4" fill="#f85565"
+                                                        d="m64 84c5 0 7-3 7-3h-14s2 3 7 3z"></path>
+                                                    <path fill="#f85565"
+                                                        d="m65.07 78.93-.55.55a.73.73 0 0 1 -1 0l-.55-.55c-1.14-1.14-2.93-.93-4.27.47l-1.7 1.6h14l-1.66-1.6c-1.34-1.4-3.13-1.61-4.27-.47z">
+                                                    </path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                    <div class="card__title">Project Managemant Internship</div>
+                                    <div class="card__subtitle">DevSparx offers a Project Management internship for
+                                        students eager to develop leadership skills & hands-on experience in planning,
+                                        executing, managing projects using industry-standard methodologies.</div>
+                                    <div class="card__indicator"><span class="card__indicator-amount">45</span> Works /
+                                        <span class="card__indicator-percentage">52%</span></div>
+                                    <div class="card__progress"><progress max="100" value="52"></progress></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12 banner-1" data-aos="fade-down-right" data-aos-duration="1400">
+                    </div>
+                    <div class="col-md-6 col-12 d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-duration="1400">
+                        <div class="second-content p-4 p-md-0">
+                            <p class="text-center p-2 title">Collaboration</p>
+                            <h2 class="font-weight-bold">Team Members Collaboration in real time life</h2>
+                            <p class="text-muted lead" style="font-size: 0.8rem;">At DevSparx, we foster real-time
+                                collaboration among team members, ensuring efficient communication, task management, and
+                                project execution. Our platform enables instant updates, shared workspaces, and
+                                integrated tools, allowing teams to work together seamlessly from anywhere.</p>
+                            <p class="text-muted lead" style="font-size: 0.8rem;">Whether it's interns, developers, or
+                                project managers, we provide the right environment for effective teamwork, idea sharing,
+                                and productivity enhancement. By utilizing modern collaboration technologies, we ensure
+                                that every team member stays connected, engaged, and aligned with project goals.</p>
+                                <a href="#form"><button class="btn mr-4"><i class="animation"></i>Collaborate<i class="animation"></i></button>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-md-6 col-12 d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="second-content p-4 p-md-0">
+                            <p class=" p-2 text-center title">Projects</p>
+                            <h2 class="font-weight-bold">Collaborate with others and solve problems together in real
+                                time.</h2>
+                            <p class="text-muted lead" style="font-size: 0.8rem;">At DevSparx, we believe that great
+                                ideas come to life through collaboration. Our platform provides a space where students
+                                and professionals can work together in real time, solving complex problems and sharing
+                                innovative ideas. With seamless communication tools and interactive project management
+                                features, teamwork becomes more efficient, productive, and engaging.</p>
+                            <p class="text-muted lead" style="font-size: 0.8rem;">Beyond just collaboration, DevSparx
+                                helps you gain real industry experience by working on real-world projects. Whether
+                                you're participating in coding competitions, internships, or project-based learning,
+                                you'll develop essential skills, build a strong professional network, and prepare
+                                yourself for future career opportunities—all while working with like-minded individuals.
+                            </p>
+                            <a href="#form"><button class="btn mr-4"><i class="animation"></i>Get Start<i class="animation"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 banner-1" data-aos="fade-down-left" data-aos-duration="1000">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12 banner-101" data-aos="fade-down-right" data-aos-duration="1000">
+                    </div>
+                    <div class="col-md-6 col-12 d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="second-content p-4 p-md-0">
+                            <p class=" p-2 text-center title">Meetings</p>
+                            <h2 class="font-weight-bold">Gain industry experience through interactive meetings and
+                                teamwork.</h2>
+                            <p class="text-muted lead" style="font-size: 0.8rem;">At DevSparx, we believe in learning by
+                                doing. Our platform provides aspiring professionals with real-world industry experience
+                                through collaborative projects, interactive meetings, and hands-on teamwork. Engage with
+                                like-minded individuals, solve challenges together, and enhance your skills in a dynamic
+                                and professional environment. Whether you're an intern, a developer, or a project
+                                manager, our structured approach ensures you gain practical insights, mentorship, and
+                                the confidence to excel in your field.</p>
+                                <a href="#form"><button class="btn mr-4"><i class="animation"></i>Work Together<i class="animation"></i></button>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+
+        </main>
+    </div>
+    <div class="container-fluid" style="background-color: #f6f4ff ;">
+        <div class="row purple-form">
+            <div class="col-md-6 col-12 bg-transparent d-flex align-items-center justify-content-center">
+                <img data-aos="zoom-out" data-aos-duration="1400" src="assests/icons-Photoroom (1).png" class="bg-transparent icon-img" alt="">
+            </div>
+            <div class="col-md-6 pt-4 col-12 bg-transparent">
+                <form class="p-5 form-rig" method="POST" id="form" style="box-shadow: 0px 0px 14px -3px #333;" onsubmit="sendmail(event)">
+                    <div class="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
+                    Your message was sent successfully.
+                   </div>
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                           
+                            <div class="input-group mb-3 mb-md-0">
+                                <input required="" type="text" name="text" autocomplete="off" class="input" id="firstname">
+                                <label class="user-label">First Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                         
+                            <div class="input-group">
+                                <input required="" type="text" name="text" autocomplete="off" class="input" id="lastname">
+                                <label class="user-label">Last Name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <div class="input-group mb-3 mb-md-0">
+                                <input required="" type="date" name="text" autocomplete="off" class="input" id="date">
+                                <label class="user-label"></label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                           
+                            <div class="input-group">
+                                <input required="" type="email" name="text" autocomplete="off" class="input" id="email">
+                                <label class="user-label">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                  <div class="row mb-4">
+                    <div class="col-md-6">
+                       
+                        <div class="input-group mb-3 mb-md-0">
+                            <input required="" type="number" name="text" autocomplete="off" class="input" id="whatsapp-num">
+                            <label class="user-label">Whatsapp Number</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                 
+                        <div class="input-group">
+                            <input required="" type="text" name="text" autocomplete="off" class="input" id="address">
+                            <label class="user-label">Address</label>
+                        </div>
+                    </div>
+                  </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label class="form-label">Preferred Career Field</label>
+                            <select class="form-control select" required id="internship">
+                                <option value="">Internship</option>
+                                <option>frontend Developer</option>
+                                <option>Computer Science & IT</option>
+                                <option>Business</option>
+                                <option>Media, Communication & Publishing</option>
+                                <option>Social Media Management</option>
+                                <option>Griphic Design</option>
+                                <option>Creative, Design & Fashion</option>
+                                <option>Full Stack Developer</option>
+                                <option>Figma</option>
+                                <option>Content Creator</option>
+                                <option>Data Entry & Management</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Qualification</label>
+                            <select class="form-control select" required id="education">
+                                <option value="">Select Education</option>
+                                <option>Matric</option>
+                                <option>FSC/ICs</option>
+                                <option>Post Graduat</option>
+                                <option>Under Graduat</option>
+                                <option>MS</option>
+                                <option>PHD</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-3 mb-md-0">
+                            <label class="form-label d-block d-md-none">Identify yourself with?</label>
+                            <select class="form-control select" required id="gender">
+                                <option value="">Select Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label d-block d-md-none">Internship Duration</label>
+                            <select class="form-control select" required id="duration">
+                                <option value="">Select Duration</option>
+                                <option>1 Month</option>
+                                <option>3 Months</option>
+                                <option>6 Months</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label">At the end of your internship, what next step do you hope to take?</label>
+                        <select class="form-control select" required id="do-next">
+                            <option value="">Select an Option</option>
+                            <option>Apply for a Full-time Job</option>
+                            <option>Start My Own Project</option>
+                            <option>Continue Learning</option>
+                        </select>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary" name="submit" onclick="sendmail(event)">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-5" id="work">
+            <div class="col-12 text-center">
+                <p class="m-auto p-2 title">Working Steps</p>
+                <h3 class="mt-3">How it Work</h3>
+                <p class="text-muted lead">Showcase your completed projects and complete your internship in just 3
+                    simple steps!</p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 col-12 d-flex justify-content-center">
+                <div class="card-second" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="assests/card-2.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Step 1</h5>
+                        <p class="lead">Build Projects</p>
+                        <p style="font-size: 0.8rem;" class="card-text lead">Work on real-world projects to enhance your
+                            skills and gain hands-on experience.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 my-4 my-md-0 d-flex justify-content-center">
+                <div class="card-second" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="assests/card-1.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Step 2</h5>
+                        <p class="lead">Submit Your Work</p>
+                        <p style="font-size: 0.8rem;" class="card-text lead"> Showcase your completed projects and
+                            submit them for review.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 d-flex justify-content-center">
+                <div class="card-second" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="assests/card-3.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Step 3</h5>
+                        <p class="lead">Get Hired</p>
+                        <p style="font-size: 0.8rem;" class="card-text lead">Stand out with your skills and land
+                            exciting job opportunities in the industry!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 text-center">
+                <p class="m-auto p-2 title">Our Services</p>
+                <h3 class="mt-3">Our Special Services</h3>
+                <p class="text-muted lead">Empowering students with hands-on internships, career-focused courses,<br> and real-world coding competitions to build future tech leaders</p>
+            </div>
+        </div>
+        <div class="row mb-3 mb-md-0">
+            <div class="col-md-6 col-12 banner-202" >
+            </div>
+            <div class="col-md-6 col-12 d-flex flex-column align-items-center justify-content-center">
+                <div class="card-flat d-flex flex-row p-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+                    <img src="assests/timer.png" class="mr-3 mt-1" style="border-radius: 50%;" width="70" height="70" alt="">
+                    <div class="card-flat-body">
+                        <h5 class="card-flat-title bg-transparent">🔧 Internship Programs</h5>
+                        <small class=" bg-transparent">Gain hands-on experience with real-world projects in web development, React.js, and project management under expert guidance.</small>
+                    </div>
+                </div>
+                <div class="card-flat d-flex flex-row p-3 my-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="assests/dublicatae.png" class="mr-3 mt-1" style="border-radius: 50%;" width="70" height="70" alt="">
+                    <div class="card-flat-body">
+                        <h5 class="card-flat-title bg-transparent">🧠 Career-Focused Courses</h5>
+                        <small class=" bg-transparent">Learn in-demand tech skills through structured, beginner-friendly courses designed to help students thrive in the software industry.</small>
+                    </div>
+                </div>
+                <div class="card-flat d-flex flex-row p-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                    <img src="assests/task.png" class="mr-3 mt-1" style="border-radius: 50%;" width="70" height="70" alt="">
+                    <div class="card-flat-body">
+                        <h5 class="card-flat-title bg-transparent">🏆 Coding Competitions & Hackathons</h5>
+                        <small class=" bg-transparent">Challenge your skills, collaborate with peers, and win exciting prizes in nationwide coding events organized by DevSparx.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid foot">
+        <footer class="container-fluid">
+            <div class="row p-md-5">
+                <div class="col-md-4 col-12 p-md-5 p-2">
+                    <div class="footer-brand" id="footer">
+                        <img src="assests/single logo.png" class="mb-1 d-none d-md-inline" width="40" alt="">
+                        <label for="" class="m-0 d-none d-md-inline" style="font-size: 1.4rem;">DevSparx</label>
+                        <div class="mobile-logo d-block d-md-none text-right p-2">
+                            <img src="assests/single logo.png" class="mb-1" width="40" alt="">
+                             <label for="" class="m-0 text-light" style="font-size: 1.4rem;">DevSparx</label>
+                            </div>
+                            <h5>About Us</h5>
+                        <small class="lead" style="font-size: 0.8rem;">DevSparx is a dynamic platform dedicated to empowering students by providing hands-on internship opportunities, coding competitions, and industry-relevant training. Our mission is to bridge the gap between academic learning and professional experience, helping aspiring developers and tech enthusiasts kickstart their careers.</small>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 p-md-5">
+                    <div class="footer-brand">
+                        <h5>Our Goals</h5>
+                        <ul>
+                            <li class="lead" style="font-size: 0.9rem;">Provide high-quality internships that offer real-world project experience.</li>
+                            <li class="lead" style="font-size: 0.9rem;">Organize coding challenges and hackathons to nurture innovation.</li>
+                            <li class="lead" style="font-size: 0.9rem;">Help students build strong portfolios and gain industry exposure.</li>
+                            <li class="lead" style="font-size: 0.9rem;">Connect talented individuals with job opportunities in the tech industry.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12  d-block d-md-flex p-md-5 p-0">
+                    <div class="con-1">
+                        <ul class="list-group-flush d-flex d-md-block">
+                            <li class="list-group-item border-0 bg-transparent"><a href="https://forms.gle/hv4itgCQ1HTJnANPA" class="text-light">Interns</a></li>
+                            <li class="list-group-item border-0 bg-transparent"><a href="#work" class="text-light">Trainers</a></li>
+                            <li class="list-group-item border-0 bg-transparent"><a href="#form" class="text-light">Career</a></li>
+                        </ul>
+                    </div>
+                    <div class="con-1 ">
+                        <ul class="list-group-flush p-0 d-flex d-md-block">
+                            <p class="text-light text-center d-none d-md-block">Follow us</p>
+                            <li class="list-group-item border-0 p-2 p-md-3 bg-transparent"><a href="#" class="text-light d-flex"><img src="assests/facebook.png" class=" mr-1" width="25" alt=""> Facebook</a></li>
+                            <li class="list-group-item border-0 p-2 p-md-3 bg-transparent"><a href="https://www.instagram.com/devsparx_official/?__pwa=1" class="text-light d-flex"><img src="assests/instagram.png" class=" mr-1" width="30" alt=""> Instagram</a></li>
+                            <li class="list-group-item border-0 p-2 p-md-3 bg-transparent"><a href="#" class="text-light d-flex"><img src="assests/linkedin.png" class=" mr-1" width="28" alt=""> Linkedin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row border-top border-light">
+                <div class="col-12 py-2 d-flex justify-content-between">
+                    <small class="font-weight-bold footer-end">&copy 2024 DevSparx. All right reserved. </small>
+                    <div class="ancher footer-end">
+                        <small><a href="#" class="text-md-light text-dark mr-2">Privacy Policy</a></small>
+                        <small><a href="#" class="text-md-light text-dark">Terms of Service</a></small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script>
+          window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 10) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+    function sendmail(event) {
+    event.preventDefault();
+    let fname = document.getElementById("firstname").value;
+    let lname = document.getElementById("lastname").value;
+    
+    let parms = {
+        fname: fname,
+        lname: lname,
+        fullname: fname + " " + lname,
+        date: document.getElementById("date").value,
+        email: document.getElementById("email").value,
+        phone: document.getElementById("whatsapp-num").value,
+        internship: document.getElementById("internship").value,
+        education: document.getElementById("education").value,
+        gender: document.getElementById("gender").value,
+        duration: document.getElementById("duration").value,
+        last: document.getElementById("do-next").value
+    };
+
+    emailjs.send("service_iknl7qj", "template_fq4g6bo", parms)
+        .then(function(response) {
+            alert("Your application has been successfully submitted.");
+            document.getElementById("form").reset();
+        }, function(error) {
+            alert("There was an error submitting your application. Please try again.");
+            console.log('FAILED...', error);
+        });
+}
+     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
